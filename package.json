@@ -1,0 +1,20 @@
+{
+  "name": "sdet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "testcafe": "1.1.2",
+    "testcafe-reporter-html": "^1.4.5",
+    "testcafe-reporter-spec": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test-headles": "testcafe 'chrome:headless' scenario -e",
+    "test": "testcafe chrome scenario -e",
+    "remote": "testcafe remote scenario",
+    "typo": "testcafe chrome scenario/typobug.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
